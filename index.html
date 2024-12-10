@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <meta charset="utf-8" />
+
+  </head>
+  <style>
+    body{
+      background-color: #53524E;
+    }
+  
+    header, h2, h3, h4, h5, h6{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: large;
+    }
+  
+    .navbar-dark {
+      background-color: #53524E;
+      outline: none;
+    }
+  
+    h1{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: xx-large;
+    }
+  
+    p{
+      font-family: MV Boli;
+    }
+  
+    .card{
+      padding: 20px;
+    }
+  
+    .card-body{
+      padding: 0;
+    }
+  
+    .card-title{
+      padding-top: 15px;
+      padding-bottom: 10px;
+      font-size: x-large;
+    }
+  
+    .row{
+      background-color: white;
+      padding-top: 10px;
+      padding-left: 45px;
+      padding-right: 50px;
+      padding-bottom: 50px;
+    }
+    iframe{
+      width: 1120px;
+      height: 800px;
+    }
+  
+  </style>
+  
+  </head>
+      <body>
+         <header>
+              <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                  <div class="container">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html">About</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </header>
+              <div class="my-6">
+                <div class="col">
+                    <div class="navbar-dark text-white my-3 py-3 text-center">
+                        <div class="card-body"><h1>Modify Your Mp3</h1></div>
+                        <div class="card-body"><h2>Marcus Lam</h2></div>
+                        <div class="card-body"><h2>Fall Semester 2024</h2></div>
+                    </div>
+                </div>
+              </div>
+              <div class="my-6">
+                <div class="col">
+                    <div class="navbar-dark text-white my-3 py-3 text-center">
+                      <p class="card-text">Drop an Mp3 file here. Then click on the canvas to play when uploaded.</p>
+                      <p class="card-text">It takes a few seconds to load. The sliders above adjusts the mp3 so adjust it to your liking.</p> <p class="card-text">Press the "Replay" button to replay the file. Press the "Reset" button to reset everything</p>
+                    </div>
+                </div>
+              </div>
+              <main class="my-5">
+                <div class="container">
+                        <div class="col-md-12">
+                          <iframe src="https://editor.p5js.org/4str0Matr1x/full/XZTKYBM7h"></iframe>
+                        </div>
+                </div>
+            </main>
+    <script src="sketch.js"></script>
+    <script src="bootstrap.js"></script>
+  </body>
+</html>
